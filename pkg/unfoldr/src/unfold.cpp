@@ -12,7 +12,7 @@
 
 #ifdef _OPENMP
  #include <omp.h>
- #include <R_ext/MathThreads.h>
+ //#include <R_ext/MathThreads.h>
  static int nthreads=1;
 #endif
 
