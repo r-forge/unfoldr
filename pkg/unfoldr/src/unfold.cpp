@@ -7,7 +7,7 @@
 
 //#include <R_ext/Rdynload.h>
 
-//#include "unfold.h"
+#include "unfold.h"
 #include "SimPoisson.h"
 
 #ifdef _OPENMP
