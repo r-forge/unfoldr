@@ -5,7 +5,7 @@
  *      Author: M. Baaske
  */
 
-#include <R_ext/Rdynload.h>
+//#include <R_ext/Rdynload.h>
 
 #include "unfold.h"
 #include "SimPoisson.h"
@@ -15,6 +15,8 @@
  #include <R_ext/MathThreads.h>
  static int nthreads=1;
 #endif
+
+#include <R_ext/Rdynload.h>
 
 #define DIM_SIZE 6
 #define DIM_SIZE_HIST 3
