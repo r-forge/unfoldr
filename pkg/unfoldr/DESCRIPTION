@@ -1,7 +1,7 @@
 Package: unfoldr
 Title: Stereological Unfolding for Spheroidal Particles
-Version: 0.7
-Date: 2019-05-22
+Version: 0.7.1
+Date: 2021-09-21
 Authors@R: c(person("Markus Baaske", role = c("aut", "cre"),
 			 email = "mafr2007@gmail.com"),
 			 person("Felix", "Ballani", role = "ctb",
@@ -16,4 +16,4 @@ License: GPL (>= 3)
 Repository/R-Forge/Project: unfoldr
 Repository: CRAN
 LazyData: no
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
